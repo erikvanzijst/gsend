@@ -1,0 +1,12 @@
+[project]
+name = "gmailsend"
+version = "0.1.0"
+description = "Send email through your gmail account"
+license = "MIT"
+authors = [{name = "Erik van Zijst", email = "erik.van.zijst@gmail.com"}]
+requires-python = ">=3.11"
+dependencies = [
+    "google-api-python-client>=2.167.0",
+    "google-auth>=2.39.0",
+    "google-auth-oauthlib>=1.2.2",
+]
