@@ -1,4 +1,4 @@
-# Send cli email though gmail
+# Send email from the cli using gmail
 
 ## Create a Google Cloud Platform project
 

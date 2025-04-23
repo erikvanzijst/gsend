@@ -111,7 +111,7 @@ def send_email(subject: str, recipients: list, body: str):
         sys.exit(1)
 
 def main():
-    parser = argparse.ArgumentParser(description="Gmail OAuth + Send via msmtp")
+    parser = argparse.ArgumentParser(description="Send email from the shell using your gmail account.")
     subparsers = parser.add_subparsers(dest="command")
 
     # Auth command
